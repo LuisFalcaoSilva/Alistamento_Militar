@@ -30,7 +30,7 @@ Vale destacar que o programa ainda não possui uma interface gráfica (front-end
 
 
 ## **Arquitetura**
-![Arquitetura](fluxograma_código)
+![Arquitetura](fluxograma_codigo.png)
 
 
 
