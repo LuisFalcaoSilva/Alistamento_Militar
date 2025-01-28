@@ -30,6 +30,7 @@ Vale destacar que o programa ainda não possui uma interface gráfica (front-end
 
 
 ## **Arquitetura**
+![Arquitetura](fluxograma_código)
 
 
 
@@ -214,8 +215,38 @@ Se precisar de mais alguma explicação ou ajuda, só avisar!
 
 
 ## **Features**
+### **Apresentação inicial:**
 
-Basicamente meu código ajuda o usuário com informações adicionais para o seu alistamento.
+O programa exibe uma mensagem de boas-vindas e pede o nome do usuário.
+O nome é armazenado, e a interação é personalizada com base no nome fornecido (ex.: "Iaew Luis, suavidade?").
+
+### **Pergunta sobre o estado emocional:**
+
+O programa pergunta se o usuário está bem.
+Se o usuário responde "SIM", ele recebe uma mensagem motivacional feliz.
+Se a resposta for "NÃO", o programa envia uma mensagem de encorajamento.
+Caso a resposta seja inválida, o programa pede que o usuário escolha entre "SIM" ou "NÃO".
+
+### **Checagem sobre interesse no alistamento militar:**
+
+O usuário é questionado se quer verificar informações sobre o alistamento militar.
+Ele pode responder "SIM", "NÃO" ou "QUERO".
+Respostas inválidas fazem o programa pedir uma escolha válida.
+
+### **Determinação de sexo e cálculo do alistamento:**
+
+O usuário informa se é do sexo masculino ou feminino.
+Se for feminino, o programa informa que não há obrigatoriedade de alistamento.
+Se for masculino, o programa pede o ano de nascimento e realiza cálculos:
+Determina se o alistamento está pendente, já ocorreu ou está no ano correto.
+Exibe mensagens informativas, incluindo cálculos de multa, se aplicável.
+
+### **Reinício ou término do programa:**
+
+O programa pergunta se o usuário deseja repetir o processo.
+Se a resposta for "SIM", o programa reinicia.
+Caso contrário, exibe uma mensagem de despedida personalizada e encerra.
+
 
 ## **Contribua com o projeto**
 
